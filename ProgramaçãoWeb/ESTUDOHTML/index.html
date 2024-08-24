@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="./img/favicon.png">
     <title>Luiz e Pedro</title>
 </head>
@@ -14,13 +15,12 @@
         <nav>
             <ul
                 style="list-style: none; display: flex; align-items: center; justify-content: center; margin: 5px 10px; ">
-                <li><a href="#">Estudo de Html</a></li>
-                <li style="margin-left: 8px; "><a href="#sobre">Sobre</a></li>
+                <li><a href="#">Praticando Html</a></li>
+                <li style="margin-left: 8px; "><a href="#dg">Dragão</a></li>
+                <li style="margin-left: 8px;"><a href="#sobre">Sobre</a></li>
                 <li style="margin-left: 8px;"><a href="#saiba">Saiba+</a></li>
                 <li style="margin-left: 8px;"><a href="#info">Informações</a></li>
             </ul>
-
-
         </nav>
     </header>
 
@@ -28,10 +28,11 @@
     <div class="banner">
         <img src="./img/dragao.png" alt="dragao" width="100%" height="550">
     </div>
-    <hr>
-    <!-- musica do dragao -->
-    <h2>Canção Hãros Bartossi</h2>
-    <pre>
+
+    <div class="dg" id="dg">
+        <!-- musica do dragao -->
+        <h2>Canção Hãros Bartossi</h2>
+        <pre>
         Drakari pykiros
         Tīkummo jemiros
         Yn lantyz bartossa
@@ -49,15 +50,19 @@
         Se hāros bartossi
         Prūmȳsa sōvīli
         Gevī dāerī</pre>
-    <!-- MAPA -->
-    <div style="display: flex; flex-direction: column; align-items: center;" class="mapa">
-        <img src="./img/treasure-map.png" alt="mapa" width="80" height="80">
-        <a href="https://www.hbo.com/house-of-the-dragon/map-of-westeros" target="_blank">Veja a localização do Dragão,
-            obs: não cante a canção</a>
-        <a href="mailto:someone@example.com">Envie um email para feedback</a>
+        <!-- MAPA -->
+        <div style="display: flex; flex-direction: column; align-items: center;" class="mapa">
+            <img src="./img/treasure-map.png" alt="mapa" width="80" height="80">
+            <a href="https://www.hbo.com/house-of-the-dragon/map-of-westeros" target="_blank">Veja a localização do
+                Dragão,
+                obs: não cante a canção</a>
+            <!-- EMAIL -->
+            <a href="mailto:someone@example.com">Envie um email para feedback</a>
+        </div>
     </div>
 
-    <!-- SAIBA+ -->
+
+    <!-- Sobre -->
     <div class="sobre" id="sobre">
         <h2>Luiz e Pedro</h2>
         <img src="./img/estruturahtml.png" alt="estrutura html">
@@ -65,7 +70,7 @@
             linguagem mais antiga será uma das linguagens de marcação mais requisitada durante muito tempo.</p>
         <span>Dizem os pesquisadores..</span>
     </div>
-
+    <!-- SAIBA+ -->
     <div class="saiba" id="saiba">
         <h2>Saiba +</h2>
         <p>Siga o video abaixo sobre a estrutura do html, para saber mais sobre a linguagem:</p>
@@ -74,155 +79,157 @@
 
     <!-- INFOR -->
     <div class="informações" id="info">
-        <h2>Informações e nossos filmes prediletos</h2>
+
+        <h1>Informações e curiosidades</h1>
         <!-- TABELA -->
-        <table>
-            <tr>
-                <th>Serie</th>
-                <th>Ano de lançamento</th>
-                <th>Personagem favorito</th>
-            </tr>
-            <tr>
-                <th>Stranger Things</th>
-                <th>2016</th>
-                <th> <span>Dustin</span></th>
-            </tr>
-            <tr>
-                <th>Suits</th>
-                <th>2011</th>
-                <th> <span>MIke Ross</span></th>
-            </tr>
-            <tr>
-                <th>Cobra Kai</th>
-                <th>2018</th>
-                <th> <span>Falcão</span></th>
-            </tr>
-            <tr>
-                <th>The 100</th>
-                <th>2014</th>
-                <th> <span>Octavia</span></th>
-            </tr>
-            
-            <tr>
-                <th>Breaking Bad</th>
-                <th>2008</th>
-                <th> <span>Walter White</span></th>
-            </tr> 
-            <tr>
-                <th>Gossip Girl</th>
-                <th>2007</th>
-                <th> <span>Chuck Bass</span></th>
-            </tr>
-            <tr>
-                <th>Pretty Little Liars</th>
-                <th>2010</th>
-                <th> <span>Spencer</span></th>
-            </tr>
+        <div class="tabela">
+            <h2>Nossos filmes e series prediletos</h2>
+            <table>
+                <tr>
+                    <th>Serie</th>
+                    <th>Ano de lançamento</th>
+                    <th>Personagem favorito</th>
+                </tr>
+                <tr>
+                    <th>Stranger Things</th>
+                    <th>2016</th>
+                    <th> <span>Dustin</span></th>
+                </tr>
+                <tr>
+                    <th>Suits</th>
+                    <th>2011</th>
+                    <th> <span>MIke Ross</span></th>
+                </tr>
+                <tr>
+                    <th>Cobra Kai</th>
+                    <th>2018</th>
+                    <th> <span>Falcão</span></th>
+                </tr>
+                <tr>
+                    <th>The 100</th>
+                    <th>2014</th>
+                    <th> <span>Octavia</span></th>
+                </tr>
 
-            
-                
-        </table>
+                <tr>
+                    <th>Breaking Bad</th>
+                    <th>2008</th>
+                    <th> <span>Walter White</span></th>
+                </tr>
+                <tr>
+                    <th>Gossip Girl</th>
+                    <th>2007</th>
+                    <th> <span>Chuck Bass</span></th>
+                </tr>
+                <tr>
+                    <th>Pretty Little Liars</th>
+                    <th>2010</th>
+                    <th> <span>Spencer</span></th>
+                </tr>
+            </table>
+        </div>
 
-        <!-- MUSICAS -->
-        <H2>Musicas</H2>
-        <ul>
-            <li>Eu fujo</li>
-            <li>MVP PT2</li>
-            <li>Vidigal</li>
-            <li>CONFISSÕES PT2</li>
-            <li>Gorila Roxo</li>
-            <li>Foto do Corte</li>
-            <li>Urubus</li>
-            <li>Preferida</li>
-            <li>Novo Balanço</li>
-            <li>Leans pt2</li>
-        </ul>
 
-        <!-- PRATOS PREDILETOS -->
 
-    <H2>PRATOS</H2>
-    <ul>
-        <li>Lasanha</li>
-        <li>Strogonoff</li>
-        <li>Bolo de cenoura</li>
-        <li>Pizza</li>
-        <li>Pastel</li>
-        <li>Macarronada</li>
-        <li>Nhoque</li>
-        <li>Torta Holandesa</li>
-        <li>Palha Italiana</li>
-        <li>Chocolate</li>
-    </ul>
+        <div class="listas">
+            <!-- MUSICAS -->
+            <h2>Musicas</h2>
+            <ul>
+                <li>Eu fujo</li>
+                <li>MVP PT2</li>
+                <li>Vidigal</li>
+                <li>CONFISSÕES PT2</li>
+                <li>Gorila Roxo</li>
+                <li>Foto do Corte</li>
+                <li>Urubus</li>
+                <li>Preferida</li>
+                <li>Novo Balanço</li>
+                <li>Leans pt2</li>
+            </ul>
 
-    <!-- LUGARES PREDILETOS -->
-    <H2>LUGARES PREDILETOS</H2>
-    <ul>
-        <li>Neo Quimica Arena</li>
-        <li>Morumbi</li>
-        <li>Disney</li>
-        <li>Roma</li>
-        <li>Bariloche</li>
-        <li>Montevidéu</li>
-        <li>Canada</li>
-        <li>Amsterdã</li>
-        <li>Nova York</li>
-        <li>Madrid</li>
-    </ul>
+            <!-- PRATOS PREDILETOS -->
+
+            <H2>PRATOS</H2>
+            <ul>
+                <li>Lasanha</li>
+                <li>Strogonoff</li>
+                <li>Bolo de cenoura</li>
+                <li>Pizza</li>
+                <li>Pastel</li>
+                <li>Macarronada</li>
+                <li>Nhoque</li>
+                <li>Torta Holandesa</li>
+                <li>Palha Italiana</li>
+                <li>Chocolate</li>
+            </ul>
+
+            <!-- LUGARES PREDILETOS -->
+            <H2>LUGARES PREDILETOS</H2>
+            <ul>
+                <li>Neo Quimica Arena</li>
+                <li>Morumbi</li>
+                <li>Disney</li>
+                <li>Roma</li>
+                <li>Bariloche</li>
+                <li>Montevidéu</li>
+                <li>Canada</li>
+                <li>Amsterdã</li>
+                <li>Nova York</li>
+                <li>Madrid</li>
+            </ul>
+        </div>
+
 
 
 
         <p>Esse site foi desenvolvido em uma bela tarde na suiça, enquanto os pesquisadores Luiz e Pedro tomavam café e
             davam risada enquanto lembravam de suas histórias no mundo da tecnológia.
         </p>
-        
+
     </div>
 
-<!-- FORMULARIO -->
-<div class="FORMULARIO">
-    <form action="">
-        <label for="">Nome</label>
-        <input placeholder="Digite o seu nome" type="text">
-        
-        <p>Estilo musical</p>
-        <input type="radio" value="Funk">
-        <label for="Funk">Funk</label>
-        
-        <input type="radio" value="Trap">
-        <label for="Trap">Trap</label>
-        
-        <input type="radio" value="Eletronica">
-        <label for="Eletronica">Eletronica</label>
+    <!-- FORMULARIO -->
+    <div class="FORMULARIO">
+        <form action="">
+            <label for="">Nome</label>
+            <input placeholder="Digite o seu nome" type="text">
 
-        
-        <input type="radio" value="Pagode">
-        <label for="Pagode">Pagode</label>
-        
-        <input type="radio" value="MPB">
-        <label for="MPB">MPB</label>
-        <br><br>
-        <label for="Data">Data de Nascimento</label>
-        <input type="date">
+            <p>Estilo musical</p>
+            <input type="radio" value="Funk">
+            <label for="Funk">Funk</label>
 
-        <label for="Tel">Telefone</label>
-        <input type="tel">
-        <br>
-        <span>Sexo:</span>
-        <input type="radio" value="m" id="m" checked>
-        <label for="m">masculino</label>
-        <input type="radio" value="f" id="f">
-        <label for="f">Feminino</label>
-        <input type="radio" value="n" id="n">
-        <label for="n">Prefiro não informar</label>
+            <input type="radio" value="Trap">
+            <label for="Trap">Trap</label>
 
-        <label for="">Senha:</label>
-        <input type="password" placeholder="digite a sua senha">
-
-        <button>Enviar</button>
+            <input type="radio" value="Eletronica">
+            <label for="Eletronica">Eletronica</label>
 
 
+            <input type="radio" value="Pagode">
+            <label for="Pagode">Pagode</label>
 
-    </form>
-</div>
+            <input type="radio" value="MPB">
+            <label for="MPB">MPB</label>
+            <br><br>
+            <label for="Data">Data de Nascimento</label>
+            <input type="date">
+
+            <label for="Tel">Telefone</label>
+            <input type="tel" placeholder="Digite seu telefone">
+            <br>
+            <label for="sexo">Sexo:</label>
+            <select id="sexo">
+                <option selected>Masculino</option>
+                <option>Feminino</option>
+                <option>Prefiro não escolher</option>
+            </select>
+
+            <label for="">Senha:</label>
+            <input type="password" placeholder="digite a sua senha">
+
+            <input type="submit" id="btnSalvar">
+        </form>
+    </div>
 
 </body>
 
