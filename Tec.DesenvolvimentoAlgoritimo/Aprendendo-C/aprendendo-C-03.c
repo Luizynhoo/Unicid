@@ -5,7 +5,7 @@ void main() {
         float salario = 0;
         float aumento = 0;
 
-    printf("Informe o seu salario: ");
+    printf("Informe o seu salario: R$");
     scanf("%f", &salario);
     printf("Informe a porcentagem de aumento do seu salario: ");
     scanf("%f", &aumento );
