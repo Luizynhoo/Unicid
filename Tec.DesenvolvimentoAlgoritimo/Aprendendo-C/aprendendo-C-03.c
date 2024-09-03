@@ -13,8 +13,8 @@ void main() {
     aumento = aumento*salario/100;
     salario = salario+aumento;
 
-    printf("\nO seu salario aumentou: R$%.f ", aumento);
-    printf("\nO seu salario agora e: R$%.f\n ", salario);
+    printf("\nO seu salario aumentou: R$%.2f ", aumento);
+    printf("\nO seu salario agora e: R$%.2f\n ", salario);
 
     return 0;
 }
