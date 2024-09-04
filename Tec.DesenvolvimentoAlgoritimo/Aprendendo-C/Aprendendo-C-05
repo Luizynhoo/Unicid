@@ -1,0 +1,22 @@
+
+#include <stdio.h>
+
+void main() {
+        float salarioMIN = 1412;
+        float salario = 0;
+
+    printf("Informe o seu salario: ");
+    scanf("%f", &salario);
+    
+     
+    salario = salario/salarioMIN;
+
+    printf("\nO salario minimo e: %.2f R$", salarioMIN);
+    printf("\nO seu salario em salarios minimos e: %.2f\n", salario);
+
+    return 0;
+}
+
+
+
+
