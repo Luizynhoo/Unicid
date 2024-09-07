@@ -1,3 +1,4 @@
+//Permitindo que o programa utilize funções padrões de entrada e saida
 #include <stdio.h>
 
 //Int = numero inteiro
@@ -5,7 +6,7 @@ int main(){
     //Criando todas variavel, Float = variaveis com ponto flutuante, decimal
     float altura,
     alturaTotal;
-
+    //Int = variavel de nuúmero inteiro
     int QtdAndar;
 
     //O que aparece para o usúario
