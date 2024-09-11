@@ -1,22 +1,22 @@
 #include <stdio.h>
 
-int main ({
-    
-int x=0; 
-int Y=0;
+int main () {
+    int x=0; 
+    int y=0;
 
-printf ("Escreva o valor de X");
-scanf ("%i", &x);
+    printf ("Escreva o valor de X: ");
+    scanf ("%i", &x);
 
-printf ("Escreva o valor de Y");
-scanf ("%i", &Y);
+    printf ("Escreva o valor de Y: ");
+    scanf ("%i", &y);
 
-if (x<y){
-printf ("X é o maior número que é igual = %i", x);
+    if (x < y) {
+        printf ("Y eh o maior numero: %i\n", y);
+    } else if (x > y) {
+        printf ("X eh o maior numero: %i\n", x);
+    } else {
+        printf ("X e Y são iguais: %i\n", x);
+    }
 
-}else{
-
-printf ("Y é o maior número que é igual =%i", Y);
-}
-return 0;
+    return 0;
 }
