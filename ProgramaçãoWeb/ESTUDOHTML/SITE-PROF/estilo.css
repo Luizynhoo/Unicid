@@ -1,0 +1,50 @@
+*{
+    background-color: linen;
+    color: midnightblue;
+    font-family: sans-serif;
+    font-size: 1.0125em;
+}
+
+header{
+    width: 100%;
+    border: 1px groove cornsilk;
+    padding: 8px;
+    margin: 8px;
+    outline: 8px;
+}
+
+.principal{
+    font-weight: bold;
+}
+
+section.secapres p{
+    letter-spacing: 1px;
+}
+
+h2{
+    text-shadow: 2px 2px 5px mediumvioletred; 
+}
+
+h3, h4{
+    text-align: center;
+}
+
+article{
+    border: 2px solid rgb(127, 172, 255);
+    border-radius: 13px;
+}
+
+header, h1,h2{
+    background-color: deepskyblue;
+    font-size: 1.25em;
+}
+
+nav{
+    width: 21%;
+}
+
+footer div{
+    padding: 13px;
+    margin: 8px;
+    background-color: indigo;
+}
