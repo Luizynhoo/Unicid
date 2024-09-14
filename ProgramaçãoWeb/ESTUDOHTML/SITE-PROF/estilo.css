@@ -21,6 +21,12 @@ section.secapres p{
     letter-spacing: 1px;
 }
 
+h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+}
+
 h2{
     text-shadow: 2px 2px 5px mediumvioletred; 
 }
@@ -29,10 +35,15 @@ h3, h4{
     text-align: center;
 }
 
+.local{
+    font-style: italic;
+}
+
 article{
     border: 2px solid rgb(127, 172, 255);
     border-radius: 13px;
 }
+
 
 header, h1,h2{
     background-color: deepskyblue;
@@ -41,6 +52,16 @@ header, h1,h2{
 
 nav{
     width: 21%;
+}
+
+#rodape1{
+    font-size: 1.125em;
+    font-weight: bolder;
+}
+
+#rodape2{
+    text-align: center;
+    font-size: 0.625em;
 }
 
 footer div{
