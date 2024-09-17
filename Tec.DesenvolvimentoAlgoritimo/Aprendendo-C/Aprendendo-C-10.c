@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  float n1, n2, n3, n4, media;
+  float n1, n2, n3, n4;
   printf("Digite o valor de N1: ");
   scanf("%f", &n1);
   printf("Digite o valor de N2: ");
@@ -11,8 +11,7 @@ int main() {
   printf("Digite o valor de N4: ");
   scanf("%f", &n4);
 
-  media = (n1+n2+n3+n4)/4;
-  printf("\nA sua nota final foi: %.2f", media);
+  printf("\nA sua nota final foi: %.2f", (n1+n2+n3+n4)/4);
   
 
   return 0;
