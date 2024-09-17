@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 
 int main() {
   float n1, n2, n3, n4, media;
@@ -13,12 +13,13 @@ int main() {
 
   media = (n1+n2+n3+n4)/4;
 
+  printf("\nA sua nota final foi: %.2f", media);
+  
   if(media>=5){
-    printf("\nA sua nota final foi: %.2f", media);
     printf("\nAluno aprovado");
   }else{
-    printf("\nA sua nota final foi: %.2f", media);
     printf("\nAluno reprovado");
   }
-
-//Utilizando if e else
+  
+  return 0;
+}
