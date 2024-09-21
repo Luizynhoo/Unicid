@@ -4,7 +4,9 @@
 <body>
     <!-- echo = console.log -->
     <?php
-    echo "Olá, Mundo!"
+    <!--$ para criar variavel-->
+    $adjt = "Lindo";
+    echo "<p>Olá, ". $adjt ." Mundo!</p>"
     ?>
 </body>
 </html>
