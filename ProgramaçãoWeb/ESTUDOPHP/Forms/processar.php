@@ -82,4 +82,4 @@ if (isset($_GET['nome'], $_GET['nascimento'], $_GET['peso'],
 } else {
  echo "Dados incompletos!";
 }
-?
+?>
