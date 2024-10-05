@@ -1,0 +1,62 @@
+* {
+    /*
+    * box-sizing controla como o tamanho de um elemento é calculado
+    * Com border-box, a largura e a altura especificadas incluem o
+    * conteúdo, o padding e a borda. Isso significa que, se você definir
+    * um elemento com width: 200px, o tamanho total será exatamente
+    * 200px, independentemente do padding e da borda. Este comportamento é
+    * geralmente mais intuitivo e facilita o leiaute de elementos.
+    */
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+   }
+   body {
+    font-family: Arial, sans-serif; background-color: #f0f0f0;
+    /*
+    * A propriedade display: flex; no CSS é uma técnica de leiaute que
+    * permite criar interfaces responsivas e flexíveis.
+    * Ao aplicar display: flex; a um contêiner, você ativa o
+    * Modelo de Caixa Flexível (Flexbox), que é projetado para facilitar
+    * a disposição e o alinhamento de itens dentro desse contêiner.
+    */
+    display: flex;
+    justify-content: center; align-items: center;
+    /*
+    * A unidade vh significa "viewport height" e é uma unidade relativa
+    * que representa 1% da altura total da janela de visualização do
+    * navegador. Assim, se a altura da viewport é de 1000 pixels,
+    * 1 vh corresponderá a 10 pixels.
+    */
+    height: 100vh;
+   }
+   .form-container {
+    background-color: #ffffff; padding: 20px; border-radius: 8px;
+    /*
+    * A propriedade box-shadow em CSS é utilizada para adicionar
+    * sombras a elementos, proporcionando profundidade e
+    * dimensão ao design.
+    * Neste caso é uma sombra preta com 10% de opacidade a 4 pixels
+    * abaixo do elemento com raio de desfoque de 12 pixels
+    */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%; max-width: 400px;
+   }
+   h1 {
+    text-align: center; margin-bottom: 20px; color: #333;
+   }
+   label {
+    display: block; margin-bottom: 8px;
+    font-weight: bold; color: #555;
+   }
+   input, select {
+    width: 100%; padding: 10px; margin-bottom: 15px;
+    border: 1px solid #ccc; border-radius: 4px;
+   }
+   button {
+    width: 100%; padding: 12px; background-color: #007bff;
+    border: none; border-radius: 4px; color: white;
+    font-size: 16px; cursor: pointer;
+   }
+   button:hover {
+    background-color: #0056b3;
+   }
