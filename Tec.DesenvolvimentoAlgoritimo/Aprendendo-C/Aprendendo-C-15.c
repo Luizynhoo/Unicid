@@ -13,9 +13,8 @@ int main(){
 
     // Loop para imprimir os números de 'b' até 1
     for(a = b; a > 0 && count <= 10; a--){
-        printf("%i\n", a);
 
-      count++;
+     
         // Verificação se o número é par ou ímpar
         if(a % 2 == 0){
             printf("%i é par\n", a);
@@ -23,7 +22,7 @@ int main(){
             printf("%i é ímpar\n", a);
         }
 
-      
+       count++;
     }
 
     return 0;
