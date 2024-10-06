@@ -15,6 +15,7 @@ int main() {
         // Loop para gerar a tabuada
         printf("Tabuada do %i:\n", numero);
         for (i = 1; i <= 10; i++) {
+        //Cada %i um numero ex:        (10 x 10 = 100)
             printf("%i x %i = %i\n", numero, i, numero * i);
         }
     }
