@@ -4,12 +4,15 @@ int main(){
 
   int i, h;
 
+  printf("digite o inicio do intervalo: ");
+  scanf("%d", &i);
+
   printf("digite o intervalo: ");
   scanf("%d", &h);
 
-  for(i = 0; i<=h; i++){
+  for(i = i; i<=h; i++){
 
-    if(i % 3 == 0 || i % 5 == 0){
+    if(i % 3 == 0 && i % 5 == 0){
       printf("%d\n", i);
     }
     
@@ -18,4 +21,4 @@ int main(){
   return 0;
 }
 
-//Escreva uma rotina que imprima os múltiplos 3 e 5 em u intervalo definido pelo usuário 
+//Escreva uma rotina que imprima os múltiplos 3 e 5 em um intervalo definido pelo usuário 
